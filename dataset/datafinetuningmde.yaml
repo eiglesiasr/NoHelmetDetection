@@ -1,0 +1,14 @@
+train: images/train
+val: D:/GIT/NoHelmetNet/dataset/images/test
+
+nc: 7  # número total de clases
+
+
+names:
+  - DNoHelmet
+  - DHelmet
+  - DHelmetP1Helmet
+  - DNoHelmetP1NoHelmetP2NoHelmet
+  - DHelmetP1NoHelmet
+  - DNoHelmetP1NoHelmet
+  - DHelmetP1HelmetP2NoHelmet

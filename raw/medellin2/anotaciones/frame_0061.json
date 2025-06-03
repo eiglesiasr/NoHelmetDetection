@@ -1,0 +1,34 @@
+{
+    "boxes": [
+        {
+            "id": "1",
+            "label": "DNoHelmetP1NoHelmet",
+            "x": "1030.71",
+            "y": "851.43",
+            "width": "81.43",
+            "height": "177.14",
+            "confidence": null
+        },
+        {
+            "id": "2",
+            "label": "DHelmet",
+            "x": "1121.43",
+            "y": "774.29",
+            "width": "85.71",
+            "height": "157.14",
+            "confidence": null
+        },
+        {
+            "id": "3",
+            "label": "DHelmet",
+            "x": "1860.00",
+            "y": "897.86",
+            "width": "120.00",
+            "height": "132.86",
+            "confidence": null
+        }
+    ],
+    "height": 1080,
+    "key": "frame_0061.jpg",
+    "width": 1920
+}

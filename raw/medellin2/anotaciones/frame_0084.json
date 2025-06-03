@@ -1,0 +1,43 @@
+{
+    "boxes": [
+        {
+            "id": "1",
+            "label": "DNoHelmetP1NoHelmet",
+            "x": "978.09",
+            "y": "812.02",
+            "width": "128.34",
+            "height": "126.23",
+            "confidence": null
+        },
+        {
+            "id": "2",
+            "label": "DHelmetP1Helmet",
+            "x": "272.65",
+            "y": "568.82",
+            "width": "109.06",
+            "height": "124.03",
+            "confidence": null
+        },
+        {
+            "id": "3",
+            "label": "DHelmetP1Helmet",
+            "x": "941.48",
+            "y": "261.13",
+            "width": "56.46",
+            "height": "114.33",
+            "confidence": null
+        },
+        {
+            "id": "4",
+            "label": "DNoHelmet",
+            "x": "1664.78",
+            "y": "1017.71",
+            "width": "131.03",
+            "height": "124.58",
+            "confidence": null
+        }
+    ],
+    "height": 1080,
+    "key": "frame_0084.jpg",
+    "width": 1920
+}

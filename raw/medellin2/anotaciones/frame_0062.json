@@ -1,0 +1,25 @@
+{
+    "boxes": [
+        {
+            "id": "1",
+            "label": "DNoHelmet",
+            "x": "500.00",
+            "y": "345.71",
+            "width": "122.86",
+            "height": "100.00",
+            "confidence": null
+        },
+        {
+            "id": "2",
+            "label": "DHelmet",
+            "x": "950.00",
+            "y": "344.29",
+            "width": "68.57",
+            "height": "111.43",
+            "confidence": null
+        }
+    ],
+    "height": 1080,
+    "key": "frame_0062.jpg",
+    "width": 1920
+}

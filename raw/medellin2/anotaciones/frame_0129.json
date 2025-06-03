@@ -1,0 +1,97 @@
+{
+    "boxes": [
+        {
+            "id": "1",
+            "label": "DHelmet",
+            "x": "209.54",
+            "y": "389.80",
+            "width": "66.00",
+            "height": "89.92",
+            "confidence": null
+        },
+        {
+            "id": "2",
+            "label": "DHelmetP1Helmet",
+            "x": "329.16",
+            "y": "290.80",
+            "width": "67.65",
+            "height": "80.02",
+            "confidence": null
+        },
+        {
+            "id": "3",
+            "label": "DHelmetP1Helmet",
+            "x": "715.66",
+            "y": "395.16",
+            "width": "76.72",
+            "height": "94.05",
+            "confidence": null
+        },
+        {
+            "id": "4",
+            "label": "DHelmetP1Helmet",
+            "x": "776.70",
+            "y": "588.61",
+            "width": "93.22",
+            "height": "117.97",
+            "confidence": null
+        },
+        {
+            "id": "5",
+            "label": "DHelmet",
+            "x": "780.42",
+            "y": "380.72",
+            "width": "84.15",
+            "height": "98.17",
+            "confidence": null
+        },
+        {
+            "id": "6",
+            "label": "DHelmet",
+            "x": "1431.43",
+            "y": "811.43",
+            "width": "91.43",
+            "height": "105.71",
+            "confidence": null
+        },
+        {
+            "id": "7",
+            "label": "DHelmet",
+            "x": "1652.14",
+            "y": "908.57",
+            "width": "104.29",
+            "height": "122.86",
+            "confidence": null
+        },
+        {
+            "id": "8",
+            "label": "DHelmet",
+            "x": "1337.14",
+            "y": "560.00",
+            "width": "80.00",
+            "height": "108.57",
+            "confidence": null
+        },
+        {
+            "id": "9",
+            "label": "DHelmetP1Helmet",
+            "x": "1799.29",
+            "y": "962.14",
+            "width": "107.14",
+            "height": "135.71",
+            "confidence": null
+        },
+        {
+            "id": "A",
+            "label": "DHelmetP1Helmet",
+            "x": "410.07",
+            "y": "450.36",
+            "width": "65.50",
+            "height": "77.67",
+            "confidence": null
+        }
+    ],
+    "height": 1080,
+    "key": "frame_0129.jpg",
+    "width": 1920
+}

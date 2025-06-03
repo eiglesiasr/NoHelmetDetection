@@ -1,0 +1,88 @@
+{
+    "boxes": [
+        {
+            "id": "1",
+            "label": "DHelmet",
+            "x": "325.13",
+            "y": "283.43",
+            "width": "79.33",
+            "height": "70.52",
+            "confidence": null
+        },
+        {
+            "id": "2",
+            "label": "DHelmet",
+            "x": "614.66",
+            "y": "544.14",
+            "width": "80.69",
+            "height": "79.33",
+            "confidence": null
+        },
+        {
+            "id": "3",
+            "label": "DHelmet",
+            "x": "368.53",
+            "y": "620.09",
+            "width": "65.77",
+            "height": "88.83",
+            "confidence": null
+        },
+        {
+            "id": "4",
+            "label": "DHelmet",
+            "x": "927.93",
+            "y": "871.31",
+            "width": "82.05",
+            "height": "93.57",
+            "confidence": null
+        },
+        {
+            "id": "5",
+            "label": "DHelmet",
+            "x": "1322.90",
+            "y": "1011.67",
+            "width": "88.15",
+            "height": "104.42",
+            "confidence": null
+        },
+        {
+            "id": "6",
+            "label": "DHelmet",
+            "x": "1579.20",
+            "y": "878.09",
+            "width": "85.44",
+            "height": "90.86",
+            "confidence": null
+        },
+        {
+            "id": "7",
+            "label": "DHelmetP1Helmet",
+            "x": "1594.46",
+            "y": "592.62",
+            "width": "53.57",
+            "height": "99.00",
+            "confidence": null
+        },
+        {
+            "id": "8",
+            "label": "DHelmet",
+            "x": "1510.38",
+            "y": "357.00",
+            "width": "77.98",
+            "height": "67.13",
+            "confidence": null
+        },
+        {
+            "id": "9",
+            "label": "DHelmet",
+            "x": "1768.04",
+            "y": "326.49",
+            "width": "67.13",
+            "height": "72.55",
+            "confidence": null
+        }
+    ],
+    "height": 1080,
+    "key": "frame_0001.jpg",
+    "width": 1920
+}
