@@ -1,5 +1,5 @@
-train: images/train
-val: D:/GIT/NoHelmetNet/dataset/images/test
+train: D:/GIT/NoHelmetDetection/dataset/medellin/images/train
+val: D:/GIT/NoHelmetDetection/dataset/medellin/images/val
 
 nc: 7  # número total de clases
 

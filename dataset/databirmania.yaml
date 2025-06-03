@@ -1,6 +1,5 @@
-train: D:/GIT/NoHelmetNet/dataset/images/train
-val: D:/GIT/NoHelmetNet/dataset/images/val
-test: D:/GIT/NoHelmetNet/dataset/images/test
+train: D:/GIT/NoHelmetDetection/dataset/birmania/images/train
+val: D:/GIT/NoHelmetDetection/dataset/birmania/images/val
 
 nc: 36  # número total de clases
 

@@ -43,14 +43,21 @@ raw/
 ├── medellin/
 │   ├── anotaciones/
 │   └── imagenes/
-└── medellin2/
-    ├── anotaciones/
-    ├── imagenes/
-    └── videos/
-src/                    # Notebooks y Scripts principales
-src_extra/              # Notebooks y scripts adicionales
+├── medellin2/
+│   ├── anotaciones/
+│   ├── imagenes/
+│   └── videos/
+
+src/                          # Notebooks y Scripts principales
+├── noHelmetDetection/        # Contiene los modelos entrenados en YOLO 
+│   ├── exp1/
+│   └── exp2/
+│   └── exp3/
+│   └── expFinetuneMedellin/  #Modelo final de deteccion en Medellin
+src_extra/                    # Notebooks y scripts adicionales
 .gitignore
 requirements.txt
+requirementsVideoTest.txt
 ```
 
 ---
@@ -94,20 +101,32 @@ Se reutiliza el modelo entrenado con Birmania para adaptarlo a datos locales de 
 3. `5_yolo_finetuning_medellin.ipynb`:  
    Realiza el fine-tuning sobre el modelo base entrenado con Birmania.
 
-> ❗ La carpeta `medellin2` contiene el dataset final utilizado, mientras que `medellin/` (con imágenes CCTV de la Secretaría de Movilidad de Medellín [https://www.medellin.gov.co/SIMM/camaras-de-circuito-cerrado]) fue descartada por condiciones de imagen no óptimas.
+> ❗ La carpeta `medellin2` contiene el dataset final utilizado, mientras que `medellin/` (con imágenes CCTV de la Secretaría de Movilidad de Medellín [SIMM](https://www.medellin.gov.co/SIMM/camaras-de-circuito-cerrado) fue descartada por condiciones de imagen no óptimas.
 
 ---
 
 ### 🎥 Detección en Video
 
+Por conflictos de liberias en entrenamiento y despliegue local es necesario montar otro environment para probar el modelo en un video
+
+```bash
+conda create -n no-helmet-detection-video-test python=3.10 -y
+conda activate no-helmet-detection-video-test
+pip install -r requirementsVideoTest.txt
+```
+
 - `6_yolo_detect_video.py`:  
-  Permite cargar un video y un modelo entrenado para realizar inferencia cuadro a cuadro y visualizar las predicciones.
+  Permite cargar un video y un modelo entrenado para realizar inferencia cuadro a cuadro y visualizar las predicciones. Para cerrar la interfaz gráfica presionar `q`
 
 ---
+uso:
+`python src/6_yolo_detect_video.py --video path/to/video.mp4 --model path/to/yolo_model.pt --conf 0.3`
+
+`python src\6_yolo_detect_video.py --video raw\medellin2\videos\IMG_7439.MOV --model src\noHelmetDetection\expFinetuneMedellin\weights\best.pt --conf 0.3`
 
 ## 📦 Datos
 
 - Se ha compartido una muestra del dataset de Birmania para facilitar pruebas.
-- El dataset completo (~100K imágenes) puede descargarse desde [enlace pendiente](https://www.medellin.gov.co/SIMM/camaras-de-circuito-cerrado) este ya esta en formato YOLO y solo debe ser copiado en la ubicación correspondiente.
+- El dataset completo (~100K imágenes) puede descargarse desde este link de GDrive [GDrive](https://drive.google.com/file/d/1nXDKIZjMga3NzZ3TA6S2FpVLOG6J7sGv/view?usp=drive_link) este ya esta en formato YOLO y solo debe ser copiado en la ubicación correspondiente.
 - Para entrenar desde cero, colocar las imágenes originales en `raw/birmania/` siguiendo la estructura mostrada.
 - El dataset final de medellín etiquetado en Roboflow está en `raw/medellin2/` y fue utilizado para el finetuning del modelo final
